@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to Boxicons for icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Aarti Rai - Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header>
+      <!-- Logo linking to the home section -->
+      <a href="#home" class="logo">Aarti Rai</a>
+
+      <!-- Menu icon (hamburger menu) for responsive design -->
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <!-- Navbar with links to different sections of the page -->
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Button linking to the contact section -->
+      <div class="top-btn">
+        <a href="#contact" class="nav-btn">Contact Me</a>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi, Myself</h3>
+        <h1>Aarti Rai</h1>
+        <h3>I'm a <span class="multiple-text"></span></h3>
+
+        <!-- Introductory paragraph about yourself -->
+        <p>
+          I am a Computer Science and Engineering student at Lovely Professional
+          University (Batch 2027). I have skills in Python, C/C++, HTML, CSS,
+          and JavaScript and a passion for competitive coding and open-source
+          contributions. I have worked on web development and algorithm-based
+          projects and hold certifications in **Web Design, Digital Marketing,
+          and Python.
+        </p>
+
+        <!-- Social Media Links -->
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/aarti-rai-b92763293"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/AartRai" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/__aartirai/" target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+
+        <!-- Button to View CV -->
+        <a
+          href="https://drive.google.com/file/d/1mJiD6nBMZq6pWEU-7fiwn_yS5VGuvf9U/view?usp=sharing"
+          target="_blank"
+          class="btn"
+          >View CV</a
+        >
+      </div>
+
+      <!-- Profile Image Section -->
+      <div class="home-img">
+        <img src="image/img1.jpeg" alt="Profile Image" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="image/img1.jpeg" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>I'm a <span>Web Developer</span></h3>
+        <!-- Description about yourself -->
+        <p>
+          I am a passionate and driven Computer Science and Engineering student
+          at Lovely Professional University. With a strong foundation in
+          programming and web development, I enjoy solving problems and building
+          innovative projects. I have experience in C++, Python, HTML, CSS, and
+          JavaScript, and I actively participate in coding challenges and
+          open-source contributions. My interests lie in software development,
+          competitive coding, and exploring new technologies to create impactful
+          solutions.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section">
+      <h2>My <span>Skills</span></h2>
+
+      <div class="skill-container">
+        <!-- Technical Skills -->
+        <div class="skill-box">
+          <h3>Technical Skills</h3>
+          <div class="skill">
+            <div class="skill-info">
+              <span>Frontend development</span><span>80%</span>
+            </div>
+            <div class="progress-bar"><div style="width: 80%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-info"><span>C++</span><span>85%</span></div>
+            <div class="progress-bar"><div style="width: 85"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-info"><span>C</span><span>85%</span></div>
+            <div class="progress-bar"><div style="width: 85%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-info"><span>Python</span><span>75%</span></div>
+            <div class="progress-bar"><div style="width: 75%"></div></div>
+          </div>
+        </div>
+
+        <!-- Professional Skills -->
+        <div class="skill-box">
+          <h3>Professional Skills</h3>
+          <div class="skill">
+            <div class="skill-info">
+              <span>Leadership</span><span>75%</span>
+            </div>
+            <div class="progress-bar"><div style="width: 75%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-info">
+              <span>Time Management</span><span>67%</span>
+            </div>
+            <div class="progress-bar"><div style="width: 67%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-info">
+              <span>Communication Skill</span><span>85%</span>
+            </div>
+            <div class="progress-bar"><div style="width: 85%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-info">
+              <span>Problem Solving</span><span>70%</span>
+            </div>
+            <div class="progress-bar"><div style="width: 70%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading"><span>Projects</span></h2>
+
+      <div
+        class="portfolio-content grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+      >
+        <!-- Project 1 -->
+        <div
+          class="row bg-gray-100 shadow-lg rounded-lg p-6 flex flex-col items-center hover:shadow-xl transition-shadow duration-300"
+        >
+          <div class="main-row mt-4">
+            <div class="row-text text-center">
+              <a
+                href="https://github.com/AartRai/GreenMarketing-Website"
+                target="_blank"
+                ><h4>GREEN MARKETING WEBSITE</h4></a
+              >
+            </div>
+          </div>
+          <h5>
+            The <strong>Green Marketing Website</strong> is a web-based platform
+            designed to promote eco-friendly products and sustainable business
+            practices. Built using <strong>HTML, CSS, and JavaScript</strong>,
+            the website highlights environmentally responsible brands, educates
+            users on green initiatives, and encourages sustainable consumer
+            choices.
+          </h5>
+        </div>
+
+        <!-- Project 2 -->
+        <div
+          class="row bg-gray-100 shadow-lg rounded-lg p-6 flex flex-col items-center hover:shadow-xl transition-shadow duration-300"
+        >
+          <div class="main-row mt-4">
+            <div class="row-text text-center">
+              <!-- Fixed broken link -->
+              <a
+                href="https://github.com/AartRai/Minimalistic-Spotify-Clone"
+                target="_blank"
+              >
+                <h4>SPOTIFY CLONE</h4></a
+              >
+            </div>
+          </div>
+          <h5 class="text-gray-600 text-sm mt-2 text-center">
+            The Minimalistic Spotify Clone Website, built using HTML, CSS, and
+            JavaScript, features a clean, responsive UI with intuitive
+            navigation. The project emphasizes **audio playback, playlist
+            management, and a visually appealing interface. This clone provides
+            an engaging user experience while showcasing front-end development
+            skills.
+          </h5>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <!-- Contact Form -->
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Phone Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+
+        <textarea
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <!-- Social Media Links -->
+      <div class="social">
+        <a
+          href="https://www.linkedin.com/in/aarti-rai-b92763293/"
+          target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/AartRai" target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://www.instagram.com/__aartirai/" target="_blank"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+      </div>
+
+      <!-- Copyright Notice -->
+      <p class="copyright">&copy; Aarti Rai | All Rights Reserved</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
